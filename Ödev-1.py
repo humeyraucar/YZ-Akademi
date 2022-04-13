@@ -10,7 +10,7 @@ def compareTriplets(a, b):
     return [alice, bob]
 
 
-a = input("sayı: ")
-b = input()
+a = list(map(int,input().split(" ")))
+b = list(map(int,input().split(" ")))
 
-print(a)
+print(compareTriplets(a, b))
